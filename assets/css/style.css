@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-grey: #718c9e;
+    --light-grey: #95acbc;
+    --color-light-blue: #d7f3ff;
+    --color-blue: #32cdfd !important;
+    --color-purples: #880656;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-70 {
+    font-size: 70px;
+}
+
+
+/* text color css start from here  */
+
+.text-dark-grey {
+    color: var(--dark-grey) !important;
+}
+
+.text-light-grey {
+    color: var(--light-grey) !important;
+}
+
+.text-light-blue {
+    color: var(--color-light-blue) !important;
+}
+
+.text-red {
+    color: #c70b0b;
+}
+
+.text-blue {
+    color: var(--color-blue) !important;
+}
+
+.bg-blue {
+    background-color: var(--color-blue) !important;
+}
+
+.bg-purple {
+    background-color: var(--color-purples) !important;
+}
+
+.text-dark-blue {
+    color: #0b1a55 !important;
+}
+
+.text-purple {
+    color: var(--color-purples) !important;
+}
+
+.btn
+/* text color css end  here */
+
+
+/* background css start from here  */
+
+.bg-grey {
+    background-color: #f2f2f2 !important;
+}
+
+.bg-red {
+    background-color: var(--color-red);
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.text-blue {
+    color: var(--color-blue);
+}
+
+
+/* border css start from here  */
+
+
+/* border css end here  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-nav_cus {
+    background-color: #222;
+    border-color: #080808;
+}
+
+.custom_nav .nav-item .nav-link:hover {
+    color: var(--color-light-blue) !important;
+}
+
+.custom_nav .nav-item .nav-link:hover {
+    color: var(--color-light-blue) !important;
+}
+
+.custom_nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.btn-skyblue {
+    background: var(--color-blue);
+    color: #fff;
+}
+
+.btn-skyblue:hover,
+.btn-skyblue:hover:focus {
+    border: 1px solid var(--color-blue);
+    color: var(--color-blue);
+}
+
+.text-gold {
+    color: #807a17 !important;
+}
+
+.text-skyblue {
+    color: #66a3bc !important;
+}
+
+.bg-1 {
+    background-image: url(../images/slide.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    background-image: url(../images/slide2.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-3 {
+    background-image: url(../images/slide3.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-4 {
+    background-image: url(../images/slide4.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-5 {
+    background-image: url(../images/slide5.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-6 {
+    background-image: url(../images/slide6.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.edu-1 {
+    background-image: url(../images/EducationLaw1.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.edu-2 {
+    background-image: url(../images/EducationLaw2.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emp-1 {
+    background-image: url(../images/Employment1.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emp-2 {
+    background-image: url(../images/Employment2.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emp-3 {
+    background-image: url(../images/Employment3.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emp-4 {
+    background-image: url(../images/Employment4.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emp-5 {
+    background-image: url(../images/Employment5.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ab-1 {
+    background-image: url(../images/AboutUs4.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-1 {
+    background-image: url(../images/Immigration1.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: url(../images/Immigration2.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-3 {
+    background-image: url(../images/Immigration3.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-4 {
+    background-image: url(../images/Immigration4.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-5 {
+    background-image: url(../images/Immigration5.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.view-more {
+    display: block !important;
+    width: 194px !important;
+    height: 53px !important;
+    background-image: url(../images/View-More.png);
+    background-repeat: no-repeat !important;
+    background-position: top !important;
+    text-align: center !important;
+    padding-top: 1px !important;
+    margin: auto !important;
+    cursor: pointer !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    text-shadow: none !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+
+.bg-footer {
+    background-color: #d1d6eb !important;
+}
+
+.bg-dark-blue {
+    background: #0b1a55;
+}
+
+.border-end {
+    border-color: #b7b4b4 !important;
+}
+
+.bg-skyblue {
+    background: #66a3bc !important;
+}
+
+@media(min-width:768px) {
+    .custom_nav_slider .owl-nav {
+        position: absolute;
+        font-size: 90px;
+        top: 30%;
+        color: #0b1a55;
+    }
+    .custom_nav_slider .owl-dots {
+        position: absolute;
+        right: 8%;
+        top: 85%;
+    }
+    .custom_nav_slider .owl-nav .owl-prev {
+        position: absolute;
+        left: 5rem;
+    }
+    .custom_nav_slider .owl-nav .owl-next {
+        position: absolute;
+        left: 87rem;
+    }
+    .img_logo {
+        width: 280px !important;
+        height: 120px !important;
+    }
+    .img_logo2 {
+        width: 280px !important;
+        height: 70px !important;
+    }
+    .employment_law_slider .owl-nav {
+        top: 20%;
+    }
+    .employment_law_slider .owl-nav .owl-next {
+        left: 90rem;
+    }
+    .employment_law_slider .owl-dots {
+        position: absolute;
+        top: 80%;
+        left: 2rem;
+        font-size: 40px;
+    }
+    .owl-nav,
+    .owl-dots {
+        display: block !important;
+    }
+}
+
+.employment_law_slider .owl-nav .owl-next:hover,
+.employment_law_slider .owl-nav .owl-next:focus,
+.employment_law_slider .owl-nav .owl-prev:hover,
+.employment_law_slider .owl-nav .owl-prev:focus,
+.education_law_slider .owl-nav .owl-next:hover,
+.education_law_slider .owl-nav .owl-next:focus,
+.education_law_slider .owl-nav .owl-prev:hover,
+.education_law_slider .owl-nav .owl-prev:focus,
+.custom_nav_slider .owl-nav .owl-next:hover,
+.custom_nav_slider .owl-nav .owl-next:focus,
+.custom_nav_slider .owl-nav .owl-prev:hover,
+.custom_nav_slider .owl-nav .owl-prev:focus {
+    background: transparent !important;
+    color: var(--dark-grey) !important;
+}
+
+.custom_nav_slider .owl-nav {
+    font-size: 90px;
+    color: #0b1a55;
+}
+
+.custom_nav_slider .owl-dots .owl-dot.active span {
+    background: #0b1a55 !important;
+}
+
+.bg-rgba {
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+
+.bg-rgba2 {
+    background-color: rgba(38, 75, 99, 0.5) !important;
+}
+
+.bg-rgba3 {
+    background-color: rgba(99, 38, 82, 0.5) !important;
+}
+
+.education_law_slider .owl-nav {
+    position: absolute;
+    top: 20%;
+    font-size: 90px;
+    color: #0b1a55 !important;
+}
+
+.education_law_slider .owl-nav .owl-next {
+    position: absolute;
+    left: 90rem;
+    font-size: 90px;
+    color: #0b1a55 !important;
+}
+
+.education_law_slider .owl-dots {
+    position: absolute;
+    top: 80%;
+    left: 2rem;
+    font-size: 40px;
+}
+
+.education_law_slider .owl-dots .owl-dot.active span {
+    background: var(--color-purples) !important;
+}
+
+.employment_law_slider .owl-nav {
+    position: absolute;
+    font-size: 90px;
+    color: var(--color-purples) !important;
+}
+
+.employment_law_slider .owl-nav .owl-next {
+    position: absolute;
+    font-size: 90px;
+    color: var(--color-purples) !important;
+}
+
+.employment_law_slider .owl-dots .owl-dot.active span {
+    background: var(--color-purples) !important;
+}
+
+@media(max-width:576px) {
+    .owl-nav,
+    .owl-dots {
+        display: none !important;
+    }
+}
+
+
+/* header css  start from here  */
