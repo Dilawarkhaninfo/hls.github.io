@@ -356,7 +356,7 @@ p {
     background: #0b1a55;
 }
 
-.border-end {
+.border-start {
     border-color: #b7b4b4 !important;
 }
 
@@ -493,6 +493,45 @@ p {
     .owl-dots {
         display: none !important;
     }
+}
+
+.khan .card {
+    width: 100%;
+    height: 200px !important;
+}
+
+.khan:hover .card-1 {
+    display: none !important;
+    transition: all 0.3s ease-out;
+}
+
+.khan:hover .card-2 {
+    display: block !important;
+    transition: all 0.3s ease-in;
+}
+
+.card-bg-img-1 {
+    background: url(../images/Education-Law-thumb.jpg);
+    width: 100%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-bg-img-2 {
+    background: url(../images/Employment-thumb.jpeg);
+    width: 100%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-bg-img-3 {
+    background: url(../images/Business-Immigration-thumb.jpg);
+    width: 100%;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
