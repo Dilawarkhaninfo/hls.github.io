@@ -24,10 +24,10 @@
     <!-- ----header-start-from-here------ -->
     <header>
         <!-- navbar start from here  -->
-        <nav class="navbar navbar-expand-lg bg-nav_cus">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-nav_cus">
             <div class="container">
-                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler text-dark border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-dark"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom_nav">
@@ -60,7 +60,7 @@
                     <div>
                         <a href="#">
                             <div class="img_logo">
-                                <img src="./assets/images/logo-1.jpg" class="img-fluid w-50" alt="">
+                                <img src="./assets/images/logo-1.jpg" class="img-fluid" alt="">
                             </div>
                         </a>
                     </div>
@@ -70,12 +70,12 @@
                         <div class="d-flex align-items-center">
                             <div>
                                 <h5 class="fw-semibold mb-0 text-skyblue">Have a question?</h5>
-                                <h6 class="fw-semibold mb-0 text-end text-dark-blue"><span><i class="fas fa-phone me-2"></i></span>033 3772 0409</h6>
+                                <h6 class="fw-semibold mb-0 text-end text-dark-blue"><span><i class="fas fa-phone me-2"></i></span>0312-3456789</h6>
                             </div>
                             <div class="d-none d-md-block ps-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control rounded" aria-label="Search">
-                                    <div class="input-group-append mx-2">
+                                    <div class="input-group-append mx-1">
                                         <button class="btn btn-skyblue" type="button"><span><fas class="fas fa-search"></fas></span></button>
                                     </div>
                                 </div>
@@ -208,15 +208,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="row justify-content-between align-items-center">
-                        <div class="col-4">
+                    <div class="row justify-content-between align-items-end pb-2">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-6">
                             <div class="pt-2">
                                 <h3 class="fw-bold text-light">Employment</h3>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="img_logo2 text-end">
-                                <img src="./assets/images/logo_png.png" class="img-fluid w-25" alt="">
+                                <img src="./assets/images/logo_png.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div>
@@ -226,15 +226,17 @@
     </section>
     <!-- ---content-section-end-from-here---- -->
 
+
+
     <!-- ---cards-section-start-from-here---- -->
     <section class="my-1">
         <div class="container">
             <div class="row g-3">
                 <div class="col-12">
                     <div class="row justify-content-md-end">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <div class="text-md-end">
-                                <ul class="nav">
+                                <ul class="nav navbar-expand">
                                     <li class="nav-item">
                                         <a class="nav-link bg-purple rounded-top text-white m-1" href="#">Our Team <span class="ps-2"><i class="fas fa-users"></i></span></a>
                                     </li>
@@ -286,13 +288,9 @@
                     <div class="">
                         <h1 class="text-dark-blue py-3">Employment</h1>
                         <h5 class="fw-bold text-purple mb-5">HLS is one of the few with expertise working with employees and employers</h5>
-
                         <h5 class="text-dark-blue fw-bold">For Employees</h5>
-
                         <p>The UK has a modern but complicated set of employment laws. It regulates many critical areas, from pay, dismissals, and holiday entitlements to disciplinary- and grievance proceedings.</p>
-
                         <p>Our professional employment law solicitors see daily that most UK employment law is open to legal interpretation.</p>
-
                         <div class="my-5">
                             <h5 class="fw-bold text-dark-blue">There are three crucial pieces of employment legislation in the UK today:</h5>
                             <ul>
@@ -424,7 +422,6 @@
                             </p>
 
                         </div>
-
                         <h1 class="text-purple fw-bold">Services for Employment & HR</h1>
                         <div class="my-5">
                             <h5 class="fw-bold text-dark-blue">We provide Employment & HR services in the following areas:</h5>
@@ -448,11 +445,60 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="my-5">
+                        <!-- ---Enquiry-section-start-from-here---- -->
+                        <h1 class="fw-bold my-5">Enquiry Form</h1>
+                        <form action="#" method="POST">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">First Name:</label>
+                                        <input type="text" class="form-control py-3" placeholder="Enter Your First Name...." id="name" name="name" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Last Name:</label>
+                                        <input type="text" class="form-control py-3" placeholder="Enter Your Last Name...." id="name" name="name" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email:</label>
+                                        <input type="email" class="form-control py-3" placeholder="Enter Your Email...." id="email" name="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Phone Number:</label>
+                                        <input type="tel" class="form-control py-3" placeholder="Enter Your Phone Number...." id="phone" name="phone" required>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="description" class="form-label">Brief Description of Your Matter:</label>
+                                        <textarea class="form-control" id="description" name="description" placeholder="Enter Your Matter...." rows="4" required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input class="form-check-input me-md-3 border shadow-none" type="checkbox" value="" id="flexCheckDefault" required>
+                                <label class="form-check-label" for="privacy">Proceeding confirms that you agree to our Privacy policy</label>
+                            </div>
+                            <div class="mb-3">
+                                <p>Please note that this form is for general inquiries only. If you need immediate assistance, please call us at <strong>0312-3456789</strong>
+                                </p>
+                            </div>
+                            <button type="submit" class="btn btn-skyblue px-5 py-2 fw-bold">Submit</button>
+                        </form>
+                        <!-- ---Enquiry-section-start-from-here---- -->
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- ---content-section-end-from-here---- -->
-
 
 
     <!-- ----footer-start-from-here---- -->
@@ -460,18 +506,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <h5 class="text-center bg-dark-blue text-white py-3 mb-3">Call us now on 033 3772 0409 or click <a href="#" class="text-decoration-none text-white">here to send online enquiry.</a></h5>
+                    <h5 class="text-center bg-dark-blue text-white py-3 mb-3">Call us now on 0312-3456789 or click <a href="#" class="text-decoration-none text-white">here to send online enquiry.</a></h5>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row g-3 text-center text-md-start">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-                    <div class=" text-start mt-5 mb-3">
+                    <div class="text-center text-md-start mt-5 mb-3">
                         <img src="./assets/images/HLS-logo-removebg-preview2.png" class="img-fluid w-75" alt="">
                     </div>
                     <div>
-                        <div class="social-link text-start">
+                        <div class="social-link text-center text-md-start">
                             <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-square-facebook"></i></span></a>
                             <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-linkedin"></i></span></a>
                             <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-square-twitter"></i></span></a>
@@ -505,8 +551,9 @@
             </div>
         </div>
     </footer>
-
     <!-- ----footer-end-from-here---- -->
+
+
 
 
 

@@ -24,10 +24,10 @@
     <!-- ----header-start-from-here------ -->
     <header>
         <!-- navbar start from here  -->
-        <nav class="navbar navbar-expand-lg bg-nav_cus">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-nav_cus">
             <div class="container">
-                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler text-dark border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-dark"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom_nav">
@@ -60,7 +60,7 @@
                     <div>
                         <a href="#">
                             <div class="img_logo">
-                                <img src="./assets/images/logo-1.jpg" class="img-fluid w-50" alt="">
+                                <img src="./assets/images/logo-1.jpg" class="img-fluid" alt="">
                             </div>
                         </a>
                     </div>
@@ -70,12 +70,12 @@
                         <div class="d-flex align-items-center">
                             <div>
                                 <h5 class="fw-semibold mb-0 text-skyblue">Have a question?</h5>
-                                <h6 class="fw-semibold mb-0 text-end text-dark-blue"><span><i class="fas fa-phone me-2"></i></span>033 3772 0409</h6>
+                                <h6 class="fw-semibold mb-0 text-end text-dark-blue"><span><i class="fas fa-phone me-2"></i></span>0312-3456789</h6>
                             </div>
                             <div class="d-none d-md-block ps-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control rounded" aria-label="Search">
-                                    <div class="input-group-append mx-2">
+                                    <div class="input-group-append mx-1">
                                         <button class="btn btn-skyblue" type="button"><span><fas class="fas fa-search"></fas></span></button>
                                     </div>
                                 </div>
@@ -95,9 +95,9 @@
             <div class="row g-3">
                 <div class="col-12">
                     <div class="row justify-content-md-end">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <div class="col-12 col-md-6">
                             <div class="text-md-end">
-                                <ul class="nav flex-row">
+                                <ul class="nav navbar-expand">
                                     <li class="nav-item">
                                         <a class="nav-link bg-dark-blue rounded-top text-white m-1" href="#">Our Team <span class="ps-2"><i class="fas fa-users"></i></span></a>
                                     </li>
@@ -191,7 +191,7 @@
                                                         First name*
                                                     </td>
                                                     <td class="w-50">
-                                                        <input type="text" class="form-control w-50">
+                                                        <input type="text" placeholder="Enter your first name..." class="form-control w-50">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -199,7 +199,7 @@
                                                         Surname*
                                                     </td>
                                                     <td class="w-50">
-                                                        <input type="text" class="form-control w-50">
+                                                        <input type="text" placeholder="Enter your sure name..." class="form-control w-50">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -207,7 +207,7 @@
                                                         Postcode *
                                                     </td>
                                                     <td class="w-50">
-                                                        <input type="text" class="form-control w-50">
+                                                        <input type="text" placeholder="Enter your postcode..." class="form-control w-50">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -215,7 +215,7 @@
                                                         Mobile/tel number * (Enter "0" if you do not have a contact number)
                                                     </td>
                                                     <td class="w-50">
-                                                        <input type="text" class="form-control w-50">
+                                                        <input type="text" placeholder="Enter your phone..." class="form-control w-50">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -244,7 +244,7 @@
                                                         Email*
                                                     </td>
                                                     <td class="w-50">
-                                                        <input type="text" class="form-control w-50">
+                                                        <input type="text" placeholder="Enter your email..." class="form-control w-50">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -252,7 +252,7 @@
                                                         Confirm email*
                                                     </td>
                                                     <td class="w-50">
-                                                        <input type="text" class="form-control w-50">
+                                                        <input type="text" placeholder="Confirm your email..." class="form-control w-50">
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -261,7 +261,7 @@
                                                     </td>
                                                     <td class="w-50">
                                                         <select class="form-select w-50" aria-label="Default select example">
-                                                            <option selected> </option>
+                                                            <option selected>Employment</option>
                                                             <option value="1">Education Law</option>
                                                             <option value="2">Employment</option>
                                                             <option value="3">Immigration</option>
@@ -274,8 +274,8 @@
                                                     </td>
                                                     <td class="w-50">
                                                         <select class="form-select w-50" aria-label="Default select example">
-                                                            <option selected> </option>
-                                                            <option value="1"> </option>
+                                                            <option selected>Employment</option>
+                                                            <option value="1">Employment</option>
                                                         </select>
                                                     </td>
                                                 </tr>
@@ -285,7 +285,7 @@
                                                     </td>
                                                     <td class="w-50">
                                                         <select class="form-select w-50" aria-label="Default select example">
-                                                            <option selected> </option>
+                                                            <option selected>By Telephone</option>
                                                             <option value="1">By Telephone </option>
                                                             <option value="2">Zoom / Teams Online Meeting </option>
                                                             <option value="3">Attendance at Local Office </option>
@@ -297,8 +297,7 @@
                                                         <p>
                                                             Message*
                                                         </p>
-                                                        <textarea class="p-2" name="quries" id="" cols="169" rows="5" placeholder="Enter your message here.."></textarea>
-                                                    </td>
+                                                        <textarea class="form-control" placeholder="Enter your message..." id="exampleFormControlTextarea1" rows="3"></textarea> </td>
                                                 </tr>
                                                 <tr>
                                                     <td colspan="2">
@@ -344,51 +343,53 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <h5 class="text-center bg-dark-blue text-white py-3 mb-3">Call us now on 033 3772 0409 or click <a href="#" class="text-decoration-none text-white">here to send online enquiry.</a></h5>
+                    <h5 class="text-center bg-dark-blue text-white py-3 mb-3">Call us now on 0312-3456789 or click <a href="#" class="text-decoration-none text-white">here to send online enquiry.</a></h5>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row g-3 text-center text-md-start">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="text-center text-md-start mt-5 mb-3">
+                        <img src="./assets/images/HLS-logo-removebg-preview2.png" class="img-fluid w-75" alt="">
+                    </div>
                     <div>
-                        <h5 class="text-dark-blue fw-bold fs-3">Our Social Network</h5>
-                        <div class="social-link">
-                            <a href="#" class="text-decoration-none text-dark-blue me-md-3"><span class="rounded fs-1"><i class="fab fa-square-twitter"></i></span></a>
-                            <a href="#" class="text-decoration-none text-dark-blue mx-md-3"><span class="rounded fs-1"><i class="fab fa-square-youtube"></i></span></a>
-                            <a href="#" class="text-decoration-none text-dark-blue mx-md-3"><span class="rounded fs-1"><i class="fab fa-linkedin"></i></span></a>
-                            <a href="#" class="text-decoration-none text-dark-blue mx-md-3"><span class="rounded fs-1"><i class="fab fa-square-facebook"></i></span></a>
+                        <div class="social-link text-center text-md-start">
+                            <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-square-facebook"></i></span></a>
+                            <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-linkedin"></i></span></a>
+                            <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-square-twitter"></i></span></a>
+                            <a href="#" class="text-decoration-none text-dark-blue mx-md-2"><span class="rounded fs-3"><i class="fab fa-square-youtube"></i></span></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-2">
                     <div class="border-start ps-3">
-                        <h5 class="text-dark-blue fw-bold fs-4 mb-3">Our Services</h5>
-                        <p class="fs-14"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="education-law.html" class="text-decoration-none text-dark">Education Law</a></p>
-                        <p class="fs-14"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="employment.html" class="text-decoration-none text-dark">Employment</a></p>
-                        <p class="fs-14"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="immigration.html" class="text-decoration-none text-dark">Immigration</a></p>
+                        <h5 class="text-dark-blue fw-bold fs-4 mb-4">Our Services</h5>
+                        <p class="fs-14 mb-4"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="education-law.html" class="text-decoration-none text-dark">Education Law</a></p>
+                        <p class="fs-14 mb-4"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="employment.html" class="text-decoration-none text-dark">Employment</a></p>
+                        <p class="fs-14 mb-4"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="immigration.html" class="text-decoration-none text-dark">Immigration</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-2">
                     <div class="border-start ps-3">
-                        <h5 class="text-dark-blue fw-bold fs-4 mb-3">About Us</h5>
-                        <p class="fs-14"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="index page.png" class="text-decoration-none text-dark">Home</a></p>
-                        <p class="fs-14"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="about-us.html" class="text-decoration-none text-dark">About Us</a></p>
-                        <p class="fs-14"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="contact-us.html" class="text-decoration-none text-dark">Contact Us</a></p>
+                        <h5 class="text-dark-blue fw-bold fs-4 mb-4">About Us</h5>
+                        <p class="fs-14 mb-4"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="index page.png" class="text-decoration-none text-dark">24/7 Online</a></p>
+                        <p class="fs-14 mb-4"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="about-us.html" class="text-decoration-none text-dark">About Us</a></p>
+                        <p class="fs-14 mb-4"><span class="me-2"><i class="fas fa-chevron-right"></i></span><a href="contact-us.html" class="text-decoration-none text-dark">Contact Us</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-5">
                     <div class="border-start ps-3">
                         <h5 class="text-dark-blue fw-bold fs-4 mb-3">Our Location</h5>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9585003.820630355!2d-15.007782318107804!3d54.08990050948046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2s!4v1689598478842!5m2!1sen!2s"
-                            width="100%" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            width="100%" height="150px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
     <!-- ----footer-end-from-here---- -->
+
 
 
 
